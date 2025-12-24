@@ -6,11 +6,12 @@ public class StudentMain {
 		
 		        Student s = new Student();
 
-		        s.setId(101);
-		        s.setName("Ashwitha");
-
-		        System.out.println("ID: " + s.getId());
-		        System.out.println("Name: " + s.getName());
-		    }
+		        s.getsid(101);
+		        s.getsname("Ashwitha");
+		        s.getsmarks(100);
+		        System.out.println("ID: " + s.setsid());
+		        System.out.println("Name: " + s.setsname());
+                System.out.println("Marks:"+s.setsmarks());   
+		        		    }
 		}
 	

@@ -1,27 +1,27 @@
 package com.tnsif.intro;
 
 public class Student{	    
-	    private int id;
-	    private String name;
-
-	    
-	    public int getId() {
-	        return id;
+	    private int sid;
+	    private String sname;
+	    private int smarks;
+	    public int setsid() {
+	        return sid;
 	    }
-
-	    
-	    public void setId(int id) {
-	        this.id = id;
+	    public void getsid(int sid) {
+	        this.sid = sid;
 	    }
-
-	   
-	    public String getName() {
-	        return name;
+	    public String setsname() {
+	        return sname;
 	    }
-
-	   
-	    public void setName(String name) {
-	        this.name = name;
+	    public void getsname(String sname) {
+	        this.sname = sname;
+	     }
+	    public int setsmarks() {
+	        return smarks;
 	    }
+	    public void getsmarks(int smarks) {
+	        this.smarks = smarks;
+
 	}
+}
 
