@@ -6,6 +6,7 @@ public class NestedTry {
 		try { 
 			int a=8;
 			int b=0;
+			;
 			try {
 				int arr[] = {1,2,3,4};
 				System.out.println(arr[4]);
