@@ -1,0 +1,16 @@
+package com.tnsif.intro.consumer_producer_jan9;
+
+public class Thread2 extends Thread{
+	ThreadDemo obj;
+	Thread2(ThreadDemo obj)
+	{
+		this.obj=obj;
+	}
+	public void run()
+	{
+		for(int y=1;y<5;y++) {
+			obj.receiver();
+		}
+	}
+
+}
