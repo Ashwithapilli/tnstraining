@@ -1,0 +1,11 @@
+package com.tnsif.intro.mutlithreading_jan8;
+
+public class running {
+
+	public static void main(String[] args) {
+		RunThread rd=new RunThread();
+		Thread tt=new Thread(rd);
+		tt.start();
+	}
+
+}
